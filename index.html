@@ -6,11 +6,12 @@
     <title>Pagina Principal</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/css/ionicons.min.css">
+
 </head>
 <body>
     <header>
     <nav class="navbar navbar-expand-lg" style="background-color: #be1818;">
-        
         <button class="navbar-toggler botonderecha bg-danger-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,27 +39,51 @@
 </header>
     <main class="container-fluid">
         <div class="row h-100">
-            <aside class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 bg-body-secondary d-flex flex-column justify-content-center align-items-center">
+            <aside class="col-xxl-2 col-xl-3 col-lg-3 col-md-3 col-sm-12 bg-body-secondary d-flex flex-column justify-content-center align-items-center">
                 <h1>aside</h1>
             </aside>
-        <section class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 bg-light d-flex flex-column justify-content-center align-items-center">
-            <h1>holas</h1>
+            </aside>
+        <section class="col-xxl-8 col-xl-6 col-lg-6 col-md-6 col-sm-12 bg-light d-flex flex-column justify-content-center align-items-center">
+            <h1 class="my-4">VIDEO PRESENTACIÓN</h1>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/8A-mXWA7ERA" title="YouTube video" allowfullscreen></iframe>
+                </div>
         </section>
-
-        <aside class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 bg-body-secondary d-flex flex-column justify-content-center align-items-center">
-            <h1>aside</h1>
-        </aside>
-
-        </aside>
+        <aside class="col-xxl-2 col-xl-3 col-lg-3 col-md-3 col-sm-12 bg-body-secondary d-flex flex-column align-items-center justify-content-center">
+            <a href="#"><h1 class="promo-title">PROMOS</h1></a>
+            <div>
+                <a href="#"><h4 class="promo-title">PROMO TALLARINES</h4></a>
+                <a href="#"><img src="/images/5419-1-tallarines-con-verduras-y-salsa-pesto-804-xl-1280x720x80xX.jpg" class="img-thumbnail promo-foto" alt="tallarines con verduras"></a> 
+            </div>
+            <div>
+                <a href="#"><h4 class="promo-title">PROMO ÑOQUIS</h4></a>
+                <a href="#"><img src="/images/noquis-caseros-con-salsa-de-tomate.jpg" class="img-thumbnail promo-foto" alt="ñoquis salsa"></a> 
+            </div>
+            <div>
+                <a href="#"><h4 class="promo-title">PROMO RAVIOLES</h4></a>
+                <a href="#"><img src="/images/Ravioles-de-verdura-con-estofad_PORT-1.jpg" class="img-thumbnail promo-foto" alt="ravioles"></a> 
+            </div>
     </div>
     </main>
-
-    <footer>
-
+    <footer class="footer-basico">
+        <div class="redes">
+            <a href="#"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-facebook" size="large"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
+        </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">Services</a></li>
+            <li class="list-inline-item"><a href="#">About</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+        </ul>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

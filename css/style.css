@@ -25,3 +25,79 @@ main {
 .botonderecha {
     margin-left: 4px;
 }
+
+.promo-title {
+    text-align: center;
+    margin-top: 10px;
+    transition: transform 0.2s;
+}
+
+.promo-title:hover {
+    transform: scale(1.1);
+}
+
+.promo-foto {
+    transition: transform 0.2s;
+}
+
+.promo-foto:hover {
+    transform: scale(1.05);
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+
+.footer-basico {
+    padding:40px 0;
+    background-color:#be1818;
+    color: #ffffff;
+}
+
+.footer-basico ul {
+    display: block;
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+
+.footer-basico li {
+    padding:0 10px;
+}
+
+.footer-basico ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity:1;
+}
+
+.footer-basic .redes {
+    text-align:center;
+    padding-bottom:25px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+.redes a {
+    margin: 0 10px;
+}
+
+ion-icon {
+    color: rgb(255, 255, 255);
+    transition: color 0.3s;
+}
+
+ion-icon:hover {
+    color: #aaaaaa;
+}
+

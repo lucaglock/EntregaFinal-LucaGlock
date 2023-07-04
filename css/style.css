@@ -6,13 +6,22 @@
 .navbar-nav{
     text-align: right;
     margin-right: 20px;
-  }
-  .navbar .navbar-nav .nav-link {
-      color: #ffffff;
-      font-size: 1.1em;
-      padding-right: 1em;
+}
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.1em;
+    padding-right: 1em;
 
-  }
-  .navbar .navbar-nav .nav-link:hover{
-      color: #aaaaaa;
-  }
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #aaaaaa;
+}
+
+main {
+    height: 90vh;
+
+}
+
+.botonderecha {
+    margin-left: 4px;
+}

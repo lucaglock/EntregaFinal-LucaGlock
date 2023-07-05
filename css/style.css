@@ -101,3 +101,12 @@ ion-icon:hover {
     color: #aaaaaa;
 }
 
+@media (max-width: 767px) {
+    .footer-basico {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+

@@ -17,10 +17,7 @@
     color: #aaaaaa;
 }
 
-main {
-    height: 90vh;
 
-}
 
 .botonderecha {
     margin-left: 4px;
@@ -34,6 +31,8 @@ main {
 
 .promo-title:hover {
     transform: scale(1.1);
+    color: #be1818;
+    transition: color 0.2s ease-in-out;
 }
 
 .promo-foto {
@@ -75,11 +74,11 @@ a:link, a:visited, a:active {
     opacity:0.8;
 }
 
-.footer-basic ul a:hover {
+.footer-basico ul a:hover {
     opacity:1;
 }
 
-.footer-basic .redes {
+.footer-basico .redes {
     text-align:center;
     padding-bottom:25px;
 }
@@ -101,12 +100,28 @@ ion-icon:hover {
     color: #aaaaaa;
 }
 
-@media (max-width: 767px) {
-    .footer-basico {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-    }
+footer {
+    margin-top: 2px;
+    padding-top: 2px;
+}
+
+.footer-basico .redes > a:hover {
+    opacity:0.9;
+}
+
+.footer-basico .copyright {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.promos-foto-2 {
+    max-height: 80%;
+}
+
+.promos-titulo {
+    margin-top: 10px;
 }
 

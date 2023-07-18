@@ -1,0 +1,19 @@
+.promo-title {
+    text-align: center;
+    margin-top: 10px;
+    transition: transform 0.2s;
+}
+
+.promo-title:hover {
+    transform: scale(1.1);
+    color: $colorPrincipal;
+    transition: color 0.2s ease-in-out;
+}
+
+.promo-foto {
+    transition: transform 0.2s;
+}
+
+.promo-foto:hover {
+    transform: scale(1.05);
+}

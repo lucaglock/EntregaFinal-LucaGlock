@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* RESET */
 * {
   padding: 0;
@@ -24,7 +25,6 @@ header {
   font-size: 1.1em;
   padding-right: 1em;
 }
-
 .navbar .navbar-nav .nav-link:hover {
   color: #aaaaaa;
 }
@@ -48,11 +48,30 @@ header {
 .promo-foto {
   transition: transform 0.2s;
 }
-
 .promo-foto:hover {
   transform: scale(1.05);
 }
 
+/* Botón del Menú */
+aside h3 {
+  text-align: center;
+}
+
+.btn.promo-foto {
+  background-color: #be1818;
+  color: #fff;
+}
+.btn.promo-foto:hover {
+  background-color: #252525;
+  color: #fff;
+}
+
+@media (min-width: 767px) {
+  .btn.promo-foto {
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+}
 footer {
   margin-top: 2px;
   padding-top: 2px;
@@ -146,12 +165,12 @@ ion-icon:hover {
   background-color: #be1818;
   padding: 200px 98px;
 }
-.left h2 {
+.left h3 {
   color: white;
   font-weight: 700;
   font-size: 48px;
 }
-.left h2 span {
+.left h3 span {
   font-weight: 100;
 }
 
@@ -194,7 +213,7 @@ ion-icon:hover {
     padding: 90px 15px;
     text-align: center;
   }
-  .left h2 {
+  .left h3 {
     font: size 25px;
   }
   .right {

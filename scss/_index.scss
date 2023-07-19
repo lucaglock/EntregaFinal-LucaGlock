@@ -12,8 +12,31 @@
 
 .promo-foto {
     transition: transform 0.2s;
+    &:hover {
+        transform: scale(1.05);
+    }
 }
 
-.promo-foto:hover {
-    transform: scale(1.05);
+/* Botón del Menú */
+
+aside { 
+    h3 {
+    text-align: center;
+}
+}
+
+.btn.promo-foto {
+    background-color: $colorPrincipal;
+    color: $colorFuente;
+    &:hover {
+        background-color: $colorBG;
+        color: $colorFuente;
+    }
+}
+
+@media (min-width: 767px) {
+    .btn.promo-foto {
+        margin-bottom: 80px;
+        margin-top: 20px;
+    }
 }

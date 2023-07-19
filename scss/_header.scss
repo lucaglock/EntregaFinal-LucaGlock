@@ -9,10 +9,9 @@ header {
     color: $colorFuente;
     font-size: 1.1em;
     padding-right: 1em;
-
-}
-.navbar .navbar-nav .nav-link:hover{
-    color: $colorComp;
+    &:hover{
+        color: $colorComp;
+    }
 }
 
 .botonderecha {
